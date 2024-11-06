@@ -1,81 +1,42 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/zfkkaAF8)
-# Programming Assignment 02
 
-In the sections below, list and describe each contribution briefly.
+# Phreddit: A Reddit-Inspired Web Application Built with React
 
-## Team Member 1 Contribution
+Welcome to Phreddit! This project is a simplified, Reddit-inspired social media platform I developed as part of my journey at Stony Brook University. Phreddit mimics core Reddit functionalities like community creation, post interactions, and threaded comments, all designed within a user-friendly interface. This project allowed me to deepen my skills in React, JavaScript, HTML, and CSS, while also learning the principles of reactive applications and modular development.
 
-## Team Member 2 Contribution
+## Project Overview
 
+### Goals and Learning Outcomes
 
+Through this assignment, I gained experience with **reactive application development** and worked on building **dynamic web pages** using React. This project gave me hands-on practice in structuring modular code, managing components, using JSX, and rendering data dynamically within a React framework.
 
-# Getting Started with Create React App
+### Key Features
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. **Interactive UI Elements**
+   - **Banner**: Includes the application title, a search bar, and a "Create Post" button for easy navigation.
+   - **Navigation Bar**: A sidebar with quick links to the home page and a list of created communities for streamlined browsing.
+   - **Content Views**: Dedicated views for each page, including home, community, post, search results, new community, new post, and new comment.
 
-## Available Scripts
+2. **Data Model**
+   - **Community, Post, Comment, and LinkFlair Objects**: These objects define the structure of data in the app, allowing me to create attributes for IDs, timestamps, creators, and relationships among entities.
+   - **Client-Side Data Persistence**: For this version, all data is stored on the client side without backend persistence, which simplified development while maintaining core functionality.
 
-In the project directory, you can run:
+3. **Functionalities**
+   - **Home Page**: Displays all posts, with options to sort by newest, oldest, and most active posts based on comments.
+   - **Community Page**: Shows all posts within a specific community, alongside a description and member count.
+   - **Post View**: Displays individual posts, including threaded comments for better readability and engagement.
+   - **Search Results Page**: Filters posts and comments by keywords entered in the search bar.
+   - **Post and Community Creation**: Users can create new communities and posts, apply link flairs, and manage membership counts.
+   - **Comment Threading**: Allows threaded replies to comments, enhancing the social interaction model.
 
-### `npm start`
+4. **Modular Codebase**
+   - **Components and Styling**: I organized each main component into separate files within `src/components`, creating a modular and maintainable codebase.
+   - **CSS Styling**: Leveraged existing styles from previous projects, adapting them slightly for React, to ensure a consistent and clean UI.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Running the Project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Install Dependencies**:
+   - Run `npm install` to set up all necessary packages from `package.json`.
+2. **Run the Application**:
+   - Start the development server with `npm start` and open `http://localhost:3000` in a browser to view Phreddit live.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for checking out Phreddit! I hope you enjoy exploring this project as much as I enjoyed building it. This project was a valuable experience that challenged me to apply both my creativity and technical skills.
